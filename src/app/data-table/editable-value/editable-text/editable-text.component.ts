@@ -27,8 +27,6 @@ export class EditableTextComponent implements OnInit {
   }
 
   ngOnInit() {
-    console.log(this.options);
-
     if (!this.options) {
       this.options = {};
     }

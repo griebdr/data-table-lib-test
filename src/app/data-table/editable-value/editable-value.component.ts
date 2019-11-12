@@ -21,7 +21,7 @@ export class EditableValueComponent implements OnInit, EditableValue {
   @ViewChild('editableValue', { static: false }) editableValue: any;
 
   ngOnInit() {
-    console.log(this.options);
+
   }
 
   onSave(value: any) {
