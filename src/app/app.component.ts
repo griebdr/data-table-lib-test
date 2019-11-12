@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'data-table-lib-test';
+  data = [{ name: 'Robert', age: 12, friends: [{ name: 'Thomas', age: '14' }] }];
 }
